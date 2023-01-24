@@ -2,7 +2,7 @@ import CardItem from "./CardItem";
 
 export default function CardsList() {
   return (
-    <div className=" grid grid-cols-2 grid-rows-2 gap-6 -translate-y-[135px] ">
+    <div className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6 md:-translate-y-[135px] ">
       <CardItem
         icon="teenyicons:cup-solid"
         header="RESTAURANT"

@@ -9,8 +9,8 @@ type AppProps = {
 
 export default function GalleryItem({image, numberOfGuests, header, full}: AppProps) {
     return (
-        <div className={`${full ? 'row-span-2': ''} flex flex-col gap-2`}>
-            <div className={`relative w-full ${full ? "h-full": "h-[222px]"} object-cover`}>
+        <div className={`w-60 ${full ? 'md:row-span-2': ''} flex flex-col gap-2`}>
+            <div className={`relative w-full ${full ? "h-[222px] md:h-full": "h-[222px]"} object-cover`}>
             <Image src={image} fill alt="image" />
             </div>
             <p className="text-[14px] text-[#292929]/60 font-medium leading-[133%]">{numberOfGuests} Guests</p>

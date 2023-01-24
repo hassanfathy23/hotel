@@ -4,7 +4,7 @@ import RatingCard from "./RatingCard";
 
 export default function ServicesList() {
   return (
-    <div className="pl-40 py-14 mt-28 flex flex-row justify-between items-center">
+    <div className="w-full px-4 xl:pl-40 py-14 mt-28 flex flex-col md:flex-row gap-12 xl:gap-0 justify-between items-center">
       <div className="flex flex-col gap-16">
         <ServicesItem
           index={1}
@@ -26,11 +26,11 @@ export default function ServicesList() {
         />
       </div>
 
-      <div className="relative">
-        <div className="relative w-[482px] h-[636px] self-start">
+      <div className="w-full lg:w-fit relative">
+        <div className="relative w-full md:w-[482px] h-[636px]">
           <Image src="/images/Rectangle 3671.png" alt="image" fill />
         </div>
-        <div className="absolute top-[35%] -left-56">
+        <div className="absolute top-[35%] md:-left-56 md:hidden xl:block">
           <Image
             src="/images/Rectangle 3672.png"
             width="439"
@@ -41,7 +41,7 @@ export default function ServicesList() {
         <div className="absolute -top-8 left-[23%]">
             <RatingCard name="Cody Fisher" rating={4} image="/images/Ellipse 18.png" />
         </div>
-        <div className="absolute top-[20%] -left-32">
+        <div className="absolute top-[20%] md:top-[25%] lg:top-[20%] left-[0%] md:-left-32">
             <RatingCard name="Albert Flores" rating={4} image="/images/Ellipse 19.png" />
         </div>
         <div className="absolute -bottom-8 left-[23%]">

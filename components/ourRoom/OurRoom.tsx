@@ -3,7 +3,7 @@ import OurRoomHeader from "./Header";
 
 export default function OurRoom() {
     return (
-        <div className="px-40 mt-32 flex flex-col gap-14">
+        <div className="px-4 lg:px-40 mt-32 flex flex-col gap-14">
             <OurRoomHeader />
             <Gallery />
         </div>

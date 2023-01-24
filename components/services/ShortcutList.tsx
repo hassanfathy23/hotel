@@ -2,7 +2,7 @@ import ShortcutItem from "./ShortcutItem";
 
 export default function ShortcutList() {
   return (
-    <div className="w-[840px] px-40 mx-auto flex flex-row justify-between items-center">
+    <div className="w-full md:w-[840px] mx-auto flex flex-row flex-wrap gap-4 md:gap-0 justify-between items-center">
       <ShortcutItem
         content="Welcome Drinks"
         icon="fluent:drink-to-go-24-regular"
