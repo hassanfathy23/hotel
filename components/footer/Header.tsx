@@ -1,6 +1,6 @@
 export default function FooterHeader() {
   return (
-    <div className="w-[350px] flex flex-col self-start gap-4 text-center ">
+    <div className="w-[350px] flex flex-col md:self-start gap-4 text-center ">
       <h2 className="text-[28px] text-white font-semibold leading-[162.5%] ">
         Get In Touch
       </h2>
