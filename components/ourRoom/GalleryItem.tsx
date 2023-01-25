@@ -9,7 +9,7 @@ type AppProps = {
 
 export default function GalleryItem({image, numberOfGuests, header, full}: AppProps) {
     return (
-        <div className={`w-60 ${full ? 'md:row-span-2': ''} flex flex-col gap-2`}>
+        <div className={`w-60 md:w-full ${full ? 'md:row-span-2': ''} flex flex-col gap-2`}>
             <div className={`relative w-full ${full ? "h-[222px] md:h-full": "h-[222px]"} object-cover`}>
             <Image src={image} fill alt="image" />
             </div>
